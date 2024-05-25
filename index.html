@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>欢迎来到“电”“农”成金供需派单平台</title>
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+    </style>
+    <style>
+                * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+
+        .bigbox {
+            width: 1000px;
+            margin: 0 auto;
+            height: 200px;
+        }
+
+        .imglogo {
+            width: 200px;
+            margin-left: 0px;
+            margin-right:20px;
+            margin-bottom: 20px;
+        }
+
+        .imglogo img {
+            width: 1000px;
+            height: 200px;
+        }
+
+       
+        .banner {
+            width: 100%;
+            height: 10px;
+            background-image: url(../image/bg.jpg);
+            background-size: 100%;
+        }
+
+
+
+        .xinwenlist {
+            margin-top: 10px;
+            width: 1000px;
+            height: 50px;
+            display: flex;
+        }
+
+        .xinwen_list {
+            width: 5000px;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .xinwen_list:not(:first-child) {
+            margin-left: 20px;
+        }
+
+        .xinwen_list h1 {
+            width: 100%;
+            height: 80px;
+            background-color: green;
+            color: cyan;
+            text-align: center;
+            font-size: 30px;
+            padding-left: 0px;
+        }
+
+        .xinwen_list :hover{
+            color: red;
+        }
+
+        
+
+  
+
+        .msgs {
+            width: 1000px;
+            display: flex;
+            margin-top: 60px;
+        }
+
+        .msgs_left {
+            width: 700px;
+            margin-right: 10px;
+            background-color: #BEC6BF;
+        }
+
+        .title {
+            width: 97%;
+            height: 28px;
+            font-size: 18px;
+            line-height: 28px;
+            background: linear-gradient(to bottom, #8C6D74, 52%, #B2A6BE);
+            padding-left: 20px;
+            margin-bottom: 20px;
+            font-weight: bolder;
+        }
+
+    
+
+        .msgnei {
+            width: 96%;
+            padding-top: 1%;
+            margin-left: 1%;
+            padding-left: 1%;
+            padding-right: 1%;
+            margin-top: 10px;
+        }
+
+        .msgnei h1 {
+            width: 100%;
+            height: 100px;
+            font-size: 45px;
+            line-height: 100px;
+            background-color: olivedrab;
+            text-align: center;
+        }
+
+        .neirong {
+            width: 100%;
+            display: flex;
+        }
+
+        .neirong p {
+            font-size: 20px;
+        }
+
+        .neirong div {
+            margin-top: 20px;
+            width: 33.4%;
+        }
+
+        .neirong div:nth-child(2) {
+            padding-left: 1%;
+            padding-right: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            border-right: 1px dashed rgb(81, 81, 81);
+            border-left: 1px dashed rgb(81, 81, 81);
+        }
+
+        .neirong img {
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .shou{
+            text-indent: 2em;
+            font-size: 28px;
+        }
+
+        .title_text{
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 黑体;
+        }
+
+        .title_textx{
+            text-indent: 2em;
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 黑体;
+        }
+
+        .msgs_right {
+            width: 30%;
+            background-color: rgb(226, 226, 226);
+            overflow: hidden;
+        }
+
+        .msgs_right h1 {
+            width: 100%;
+            height: 28px;
+            font-size: 18px;
+            line-height: 28px;
+            background: linear-gradient(to bottom, #8C6D74, 52%, #B2A6BE);
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .msgs_right ul {
+            width: 100%;
+        }
+
+        .msgs_right ul li {
+            width: 230px;
+            height: 100%;
+            overflow: hidden;
+            background-color: yellowgreen;
+            text-align: center;
+            margin-left: 35px;
+            margin-bottom: 70px;
+        }
+
+        .msgs_right ul li:first-child {
+            animation: donghua 1.5s infinite;
+            animation-delay: 1s linear;
+            animation-iteration-count: 2;
+        }
+
+        .msgs_right ul li:nth-child(2) {
+            animation: donghua 1.5s infinite;
+            animation-delay: 4s linear;
+            animation-delay: 4s;
+            animation-iteration-count: 2;
+        }
+
+        .msgs_right ul li:nth-child(3) {
+            animation: donghua 1.5s infinite;
+            animation-delay: 7s linear;
+            animation-delay: 7s;
+            animation-iteration-count: 2;
+        }
+
+        .msgs_right ul li img {
+            width: 100%;
+            height: 100%;
+        }
+
+        @keyframes donghua {
+            from {
+                width: 200px;
+                height: 100%;
+                margin-left: 45px;
+                margin-bottom: 70px;
+            }
+            to {
+                width: 220px;
+                height: 200%;
+                margin-left: 40px;
+                margin-bottom: 66px;
+            }
+        }
+
+        .yeshu {
+            width: 1000px;
+            margin: 0 auto;
+            background-color: #fff
+        }
+
+        
+        .kaung {
+            display: inline-block;
+            height: 20px;
+            width: 30px;
+            border: 1px solid #ccc;
+            background-color: rgb(209, 209, 209);
+            position: relative;
+            line-height: 20px;
+        }
+
+        .banquanxinxi {
+            width: 1000px;
+            text-align: center;
+            font-size: 14px;
+            background-color: #fff;
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bigbox">
+        <div class="imglogo">
+            <img src="C:\Users\86133\Desktop\公司.png" alt="">
+        </div>
+        <div class="banner">
+            <div class="xinwenlist">
+                <div class="xinwen_list">
+                    <h1>
+                    <a href="C:\Users\86133\Desktop\联系.jpg">买方入口</a>
+                    </h1>
+                </div>
+                <div class="xinwen_list">
+                    <h1>
+                        <a href="C:\Users\86133\Desktop\联系.jpg">联系我们</a>
+                    </h1>
+                </div>
+                <div class="xinwen_list">
+                    <h1>
+                        <a href="C:\Users\86133\Desktop\联系.jpg">卖方入口</a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="msgs">
+            <div class="msgs_left">
+                <div class="title">
+                    >关于我们
+                </div>
+                <div class="msgnei">
+                    <h1>“电”“农”成金供需派单平台</h1>
+                    <div class="neirong">
+                        <div>
+                            <p class="title_text">1.平台简介</p >
+                            <p class="shou">"电" "农"成金——是一个综合性网络平台，提供城市白领和农场主之间的果蔬购买和定种电子商务第三方交流平台。平台始终秉持可持续发展理念，致力于解决食品安全和农业土地闲置问题，同时为城市消费群体提供原生态和无公害的农产品，以及通过定制个性化农场来丰富都市人群的生活。</p >
+                            <p class="title_text">2.平台定位</p >
+                            <p class="title_textx">(1)思想定位</p >
+                            <p class="shou">平台以国家政策与国家重要发展战略为导向，以提高人们生活质量，保障农民生活收入为宗旨，致力于使用点对点对接创新的方法解决农村土地闲置、食品安全、“不知道生产什么，产出来的没人要”等一系列问题。</p >
+                            <p class="title_textx">(2)行为宗旨</p >
+                            <p class="shou">强调社会责任，关注民生福祉</p >
+                        </div>
+                        <div>
+                            <p class="title_text">3.产品信息</p >
+                                <p class="title_textx">(1)电商带货功能</p >
+                            <p class="shou">本项目致力于打通“滞销农户”以及“消费者”之间的途径，由平台主播代销农产品，拓宽农民销售渠道，进行品牌建设，增加农民收入。</p >
+                                <p class="title_textx">(2)在线选种功能</p >
+                            <p class="shou">用户认养土地后，平台用户可以在“云耕”平台在线选购自己心仪的种子。平台为用户提供了丰富的品种选择，包括多种种植作物。同时平台也提供了相关的种植知识和技巧，帮助用户根据不同的季节和气候条件，选择最适合自己种植的作物。</p >
+                            <p class="title_textx">(3)远程控制功能</p >
+                            <p class="shou">用户可以通过项目平台远程控制自己认养的菜园，包括浇水、施肥、采摘等。平台提供了智能化的管家系统，可以根据用户的要求，对菜园进行定期的养护</p >
+                        </div>
+                        <div>
+                            <p>和管理，确保菜园的健康成长。同时用户也可以随时查看菜园的生长情况，包括生长速度、健康状态等。</p >
+                            <p class="title_textx">(4)体验种植功能</p >
+                            <p class="shou">用户可以通过平台线上预约，线下亲临农场去照看自己的“菜地”，在专业人士的指导下自耕自种，体验“向往的生活”。该功能提供了更真实、更丰富的种植体验，让用户深刻体会到农耕劳作、春种秋收的田园生活。</p >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="msgs_right">
+                <h1>>定制包装</h1>
+                <ul>
+                    <li>
+                        <img src="C:\Users\86133\Desktop\baozhuangwu .jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\86133\Desktop\端午.png" alt="">
+
+                    </li>
+                    <li>
+                        <img src="C:\Users\86133\Desktop\生日.png" alt="">
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        
+        <div class="banquanxinxi">
+            版权所有归“电”“农”成金供需派单平台所有
+        </div>
+    </div>
+</body>
+
+</html>
